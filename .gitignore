@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Model weights & data (too large for GitHub)
+checkpoints/
+*.pth
+*.parquet
+*.sqlite3
+data_cache/
+
+# Results
+final_random100_results.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
